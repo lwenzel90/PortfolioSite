@@ -29,6 +29,7 @@
             <h1>Hey! I am Logan Wenzel</h1>
             <h4>I like to create things for the web with JavaScript. I make websites and applications in Upstate New
                 York 💻</h4>
+            <div class="col2">
                 <a href="https://drive.google.com/open?id=17_55iCWaBsUbOo--wzvxOdv6CS4NNfSo" target="_blank">
                     <button>View my resume</button>
                 </a>
@@ -36,6 +37,8 @@
                 <a href="mailto:lwenzel90@gmail.com" target="_blank">
                     <button>Send Me An Email</button>
                 </a>
+
+            </div>
             <hr>
         </header>
         <section id="aboutMe">
@@ -46,14 +49,16 @@
                     develop quickly. I have
                     worked
                     an internship at a hospital local to me. During that time I updated internal food management
-                    web application to SharePoint 
+                    web application to SharePoint
                     with
-                    JavaScript, C#, and Visual Basic for excel parsing. Before that I worked with a local church to update their website
+                    JavaScript, C#, and Visual Basic for excel parsing. Before that I worked with a local church to
+                    update their website
                     using
                     their
                     CMS Webpage Maker. I am pursuing a web development career that will allow me to experience both
                     front
-                    end and back end development. I am constantly working to employ proper software development paradigms to
+                    end and back end development. I am constantly working to employ proper software development
+                    paradigms to
                     ensure
                     high quality software that is maintainable. I acknowledge that I have much to learn and that is why
                     I
@@ -106,19 +111,54 @@
         <section id="projects">
             <h3>My Projects</h3>
             <hr>
-            <a href="https://github.com/lwenzel90">My Github</a>
-            <ul>
-                <li>ForumIt - A Reddit clone built on NodeJS and Express with MongoDB.</li>
-                <li>Polygon Tracer - A JavaScript built animation. With wonderful geometric qualities!</li>
-                <li>Password Generator - Simple and mobile friendly web application.</li>
-                <li>Analog Clock - A creation of a household object using CSS3 animations and JavaScript.</li>
-                <li>
-                    Movie Dataset Visualization - A python project built with Jupyter, ggplot, and Seaborn.
-                    Demonstrates
-                    what makes a successful movie through graphs.
-                </li>
-                <li>Breakout recreation - A 2D java built retro game.</li>
-            </ul>
+            <div class="projectGrid">
+                <div class="projectCard">
+
+                    <h5>ForumIt</h5>
+                    <p>A NodeJS project to allow users to make an account and interact with communities they enjoy. 
+                        RESTful routing is done on top of the Express framework.
+                    </p>
+                    <p class="tech">Node.JS Express MongoDB Passport.JS</p>
+                    
+                </div>
+
+                <div class="projectCard">
+
+                    <h5>Polygon Tracer - Fall 2018</h5>
+                    <p>A JavaScript built animation. With wonderful geometric qualities! Polygons are created using polar
+                        coordinates.
+                    </p>
+                    <p class="tech">JavaScript CreateJS</p>
+                </div>
+
+                <div class="projectCard">
+                    <h5>Password Generator</h5>
+                    <p>Simple and mobile friendly way to create safe passwords.</p>
+                    <p class="tech">JavaScript BootStrap</p>
+                </div>
+
+                <div class="projectCard">
+                    <h5>Analog Clock</h5>
+                    <p>A creation of a household object using CSS3 animations and JavaScript.</p>
+                    <p class="tech">JavaScript</p>
+                </div>
+                <div class="projectCard">
+                    <h5>Movie Dataset Visualization</h5>
+                    <p> A python project built with Jupyter, ggplot, and Seaborn.
+                        Demonstrates
+                        what makes a successful movie through graphs.</p>
+                    <p class="tech">Python3 Pandas Jupyter ggplot Seaborn</p>
+                </div>
+                <div class="projectCard">
+                    <h5>Breakout</h5>
+                    <p>A 2D java built retro game.</p>
+                    <p class="tech">Java</p>
+                </div>
+            </div>
+        
+            <a href="http://www.github.com/lwenzel90">
+                <button>Projects</button>
+            </a>
         </section>
         <footer id="links">
             <h3>My Links</h3>
