@@ -201,6 +201,15 @@ a:hover{
     
 }
 
+.projectGrid > a > .projectCard > h5, p{
+    color: #444;
+} 
+
+.projectGrid > a:hover{
+    text-decoration: none;
+    cursor: pointer;
+} 
+
 .tech{
     font-size: .85rem;
     color: #777;
